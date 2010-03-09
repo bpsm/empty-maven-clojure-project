@@ -26,9 +26,16 @@
       <version>${clojure-contrib.version}</version>
     </dependency>
     <dependency>
+      <!-- jline provides basic line editing for clojure:repl goal -->
       <groupId>jline</groupId>
       <artifactId>jline</artifactId>
       <version>0.9.94</version>
+    </dependency>
+    <dependency>
+      <!-- swank-clojure is for emacs slime integration, clojure:swank goal -->
+      <groupId>swank-clojure</groupId>
+      <artifactId>swank-clojure</artifactId>
+      <version>1.1.0</version>
     </dependency>
   </dependencies>
   <build>
