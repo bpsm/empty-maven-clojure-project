@@ -10,8 +10,8 @@
   <name>Prototype Clojure Project</name>
   <properties>
     <main.class>bpsmannschott</main.class>
-    <clojure.version>1.2.0-master-SNAPSHOT</clojure.version>
-    <clojure-contrib.version>1.2.0-SNAPSHOT</clojure-contrib.version>
+    <clojure.version>1.2.0</clojure.version>
+    <clojure-contrib.version>1.2.0</clojure-contrib.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
@@ -26,16 +26,10 @@
       <version>${clojure-contrib.version}</version>
     </dependency>
     <dependency>
-      <!-- jline provides basic line editing for clojure:repl goal -->
-      <groupId>jline</groupId>
-      <artifactId>jline</artifactId>
-      <version>0.9.94</version>
-    </dependency>
-    <dependency>
       <!-- swank-clojure is for emacs slime integration, clojure:swank goal -->
       <groupId>swank-clojure</groupId>
       <artifactId>swank-clojure</artifactId>
-      <version>1.1.0</version>
+      <version>1.2.1</version>
     </dependency>
   </dependencies>
   <build>
