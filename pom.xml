@@ -5,9 +5,9 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>bpsmannschott.example</groupId>
-  <artifactId>proto-clojure</artifactId>
+  <artifactId>untitled</artifactId>
   <version>1-SNAPSHOT</version>
-  <name>Prototype Clojure Project</name>
+  <name>Untitled Clojure Project</name>
   <properties>
     <main.class>bpsmannschott</main.class>
     <clojure.version>1.2.0</clojure.version>
